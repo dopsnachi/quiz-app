@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}
+  FYND QUIZ | User
+{% endblock %}
+
+{% block body %}
+<div style="font-size: 50px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+   Welcome {{var}}
+</div>
+<hr>
+fynd quiz for you guys !
+{% endblock %}
+
+
+{% block navbar%}
+<li class="nav-item">
+    <a href="/quizstrt" class="nav-link">
+<!--<i class="nav-icon fas fa-tachometer-alt"></i> -->
+      <p>
+        Take Quiz
+      </p>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a href="/show" class="nav-link">
+      <p>
+        Check Results
+      </p>
+    </a>
+  </li>
+<li class="nav-item">
+    <a href="/logout" class="nav-link">
+      <p>
+        Logout
+      </p>
+    </a>
+  </li>
+{% endblock %}

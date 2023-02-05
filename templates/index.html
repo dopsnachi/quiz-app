@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+<div style="font-size: 50px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+  FYND QUIZ
+</div>
+<hr>
+YOu only live once 
+{% endblock %}
+
+{% block navbar%}
+<li class="nav-item">
+    <a href="/register" class="nav-link">
+<!--<i class="nav-icon fas fa-tachometer-alt"></i> -->
+      <p>
+        Register
+      </p>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a href="/login" class="nav-link">
+      <p>
+        Login
+      </p>
+    </a>
+  </li>
+{% endblock %}

@@ -1,0 +1,18 @@
+create table users (
+    id integer primary key autoincrement,
+    name text not null,
+    email text not null,
+    password text not null,
+    score int ,
+    attempt int ,
+    total int      
+);
+
+create table questions (
+    id integer primary key autoincrement,
+    question text not null,
+    option1 text not null,
+    option2 text not null,
+    option3 text not null,
+    option4 text not null,
+    correct text not null);
